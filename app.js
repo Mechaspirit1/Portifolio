@@ -18,7 +18,7 @@ mode.addEventListener("click",()=>{
 
         document.body.style.backgroundColor = matte;
         document.body.style.color = "white";
-        head.style.backgroundImage = "url(cherry_tree.png)";
+        head.style.backgroundImage = "url(Background2.jpg)";
     }
     else{
         mode.textContent = "Dark mode";
