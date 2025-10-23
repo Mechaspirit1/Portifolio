@@ -69,6 +69,7 @@ a:hover{
     border-bottom: 1px;
     border-style: solid;
     border-color: rgb(110, 110, 110);
+    z-index: 2;
 }
 
 #links a:first-of-type {
