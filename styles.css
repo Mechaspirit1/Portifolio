@@ -5,7 +5,7 @@ html{
 
 body{
     margin: 0;
-    transition: 0.2s;
+    transition: 0.5s;
 }
 
 h1{
@@ -85,8 +85,9 @@ a:hover{
     font-size: 150%;
     text-align: center;
     height: 600px;
+    text-shadow: 2px 2px 5px black;
 
-    background-image: url("cherry_tree.png");
+    background-image: url("Background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
