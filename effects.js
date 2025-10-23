@@ -29,7 +29,7 @@ function typew(){
         } 
         else {
             state = true;
-            setTimeout(typew, 500); //pausa antes de escrever o titulo novamente
+            setTimeout(typew, 1000); //pausa antes de escrever o titulo novamente
         }
     }
 }

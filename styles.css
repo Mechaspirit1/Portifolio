@@ -101,3 +101,12 @@ a:hover{
     margin: 0;
     line-height: 1.5;
 }
+
+#title::after {
+  content: "▍";
+  animation: blink 0.5s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
