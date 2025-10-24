@@ -13,8 +13,8 @@ mode.addEventListener("click",()=>{
 
     if (change===false){
         mode.textContent = "Light mode";
-        links.style.backgroundColor = matte;
-        links.style.color = "white";
+        nav.style.backgroundColor = matte;
+        nav.style.color = "white";
 
         document.body.style.backgroundColor = matte;
         document.body.style.color = "white";
@@ -22,8 +22,8 @@ mode.addEventListener("click",()=>{
     }
     else{
         mode.textContent = "Dark mode";
-        links.style.backgroundColor = "white";
-        links.style.color = "black";
+        nav.style.backgroundColor = "white";
+        nav.style.color = "black";
 
         document.body.style.backgroundColor = "white";
         document.body.style.color = "black";
