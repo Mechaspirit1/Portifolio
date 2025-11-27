@@ -89,7 +89,7 @@ a:hover{
     height: 600px;
     text-shadow: 2px 2px 5px black;
 
-    background-image: url("/images/Background.jpg");
+    background-image: url("images/Background.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
